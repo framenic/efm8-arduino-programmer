@@ -244,7 +244,7 @@ void c2_write_addr(unsigned char addr) {
 }
 
 void setup() {
-  Serial.begin(1000000);
+  Serial.begin(115200);
   
   DDRD |= (1<<C2D_PIN);
   DDRD |= (1<<C2CK_PIN);
