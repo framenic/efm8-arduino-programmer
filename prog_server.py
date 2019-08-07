@@ -10,7 +10,7 @@ if len(sys.argv) < 2:
 
 class PI():
     def __init__(self, com):
-        self.ser = serial.Serial(com, 1000000, timeout = 1)
+        self.ser = serial.Serial(com, 115200, timeout = 1)
 
     def conf(self,):
 
